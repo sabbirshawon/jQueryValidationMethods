@@ -1,5 +1,5 @@
-##jQueryValidationMethods
+## jQueryValidationMethods
 
-#Phone Validation
-#USA ZIPCode Validation
-#Email Validation
+# Phone Validation
+# USA ZIPCode Validation
+# Email Validation
