@@ -24,7 +24,7 @@ $(document).ready(function() {
         return /^((\d{5}-\d{4})|(\d{5})|([A-Z]\d[A-Z]\s\d[A-Z]\d))$/.test(value); 
     }, 'Please enter a valid US or Canadian postal code.');
     
-    $.validator.addMethod("phoneValidUSA", function(value, element) {
+    $.validator.addMethod("phoneValidBD", function(value, element) {
         return this.optional(element) || /^(?:\+88|01)?(?:\d{11}|\d{13})$/.test(value);
     }, 'Please specify a valid BD mobile number');
 
